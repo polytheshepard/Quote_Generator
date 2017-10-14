@@ -1,0 +1,23 @@
+* {
+  font-family: Lato, sans-serif;
+}
+
+#quote {
+  font-size: 20px;
+  padding: 100px;
+  background-color: #FFFFFF;
+  color: black;
+  border-radius: 4px;
+  text-align: center;
+    
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  margin: auto 0;
+  text-align: center;
+}
