@@ -2,6 +2,10 @@
   font-family: Lato, sans-serif;
 }
 
+html {
+  box-sizing: border-box;
+}
+
 #quote {
   font-size: 20px;
   padding: 100px;
@@ -9,15 +13,15 @@
   color: black;
   border-radius: 4px;
   text-align: center;
-    
+  box-sizing: inherit;
 }
 
 body {
-  background-color: black;
+  background-color: #000000;
 }
 
 h1 {
-  color: white;
+  color: #FFFFFF;
   margin: auto 0;
   text-align: center;
 }
