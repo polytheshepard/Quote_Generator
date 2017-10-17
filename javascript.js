@@ -17,8 +17,8 @@ let quotes = [
 // of arrays that are rounded and randomised based on the number of quotes in the
 // array.
 function newQuote() {
-    let randomNumer = Math.floor(Math.random() * (quotes.length));
+    let randomNumber = Math.floor(Math.random() * (quotes.length));
     // innerHTML is used to pass the quotes and its random number to the
     // HTML quote element declared as id.
-    document.getElementById('quote').innerHTML = quotes[randomNumer];
+    document.getElementById('quote').innerHTML = quotes[randomNumber];
 }

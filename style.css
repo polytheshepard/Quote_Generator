@@ -4,24 +4,30 @@
 
 html {
   box-sizing: border-box;
+  background-color: #000;
+}
+
+body {
+  background-color: #000;
 }
 
 #quote {
   font-size: 20px;
   width: 300px;
-  background-color: #FFFFFF;
-  color: black;
+  background-color: #000;
+  color: #FFF;
   border-radius: 4px;
   text-align: center;
   box-sizing: inherit;
 }
 
-body {
-  background-color: #000000;
-}
-
 h1 {
-  color: #FFFFFF;
+  color: #000;
   margin: auto 0;
   text-align: center;
+}
+
+@keyframes fade {
+  0% {left: 0px; background: white; right: 0px;}
+  75% {left: 200px; background: white; right: 200px;}
 }
